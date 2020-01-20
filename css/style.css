@@ -80,3 +80,38 @@ section div {
 	padding-top: 20px;
 	margin-bottom: 20px;
 }
+.list {
+	background-color: black;
+	position: relative;
+	top: 50px;
+	width: 400px;
+	margin: 0 auto;
+	padding: 0.5em 0;
+}
+.list ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+.list ul li a {
+	color: white;
+	padding: .6em;
+}
+.list ul li a:hover {
+	background-color: white;
+	color: black;
+}
+.skills h2 {
+	text-align: center;
+	padding: 100px 0 50px 0;
+	font-size: xx-large;
+}
+.skills ul {
+	margin: 0 auto;
+	width: 700px;
+}
+.skills ul li {
+	margin-bottom: 20px;
+	line-height: 30px;
+	font-size: 1.2rem;
+}
