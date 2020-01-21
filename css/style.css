@@ -114,5 +114,7 @@ section div {
 	margin-bottom: 20px;
 	line-height: 30px;
 	font-size: 1.2rem;
-	list-style-position: inside;
+	list-style-type: none;
+	border-left: black 5px solid;
+	padding: 5px 0 5px 2rem;
 }
